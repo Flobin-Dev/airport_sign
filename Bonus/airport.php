@@ -17,9 +17,6 @@ function text_display_color($str, $len)
 			usleep(500000);
 		}
 	}
-	shell_exec("tput sgr0");
 }
-
-text_display_color("Je ne fais que mettre en exergue le paradoxe qui est de demander à un homme masqué qui il est.", 35);
 
 ?>
