@@ -8,13 +8,13 @@ function text_display($str)
 		if ($i == $maxletters)
 		{
 			$i = 0;
-			usleep(200000);
+			usleep(500000);
 		}
 		else
 		{
 			@system('clear');
 			echo substr($str . $str, $i, 30);
-			usleep(200000);
+			usleep(500000);
 		}
 	}
 }
